@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    background-color: #c0edb0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #61df5f;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40pt;
+    padding: 15px 15px 7px 15px;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    border-bottom: 2px solid rgb(140, 207, 147);
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px 8px 8px 8px;
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    font-size: 120%;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: cursive;
+    border: black;
+}
+
+nav ul li a:hover {
+    padding-left: 8px;
+    background-color: #dae6e0;
+    border-left: 7px solid #54b452;
+}
+
+.welcome-heading {
+    font-size: 30pt;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 4px double black;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.rainbow {
+    margin: 40px auto 10px auto;
+    padding: 0.5px 15px 1px 15px;
+    width: 90%;
+    height: auto;
+    border-radius: 35px;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.center-picture-citation {
+    display: block;
+    font-size: 12pt;
+    text-align: left;
+    color: rgb(20, 92, 16);
+    margin-top: 2px;
+    margin-bottom: 12px;
+    padding: 0% 5% 1% 5%;
+}
+
+.center-picture-citation a {
+    color: rgb(20, 92, 16);
+}
+.intro-header {
+    margin: 0;
+    font-size: 25pt;
+    margin-top: 30px;
+    padding: 0px 10px 0px 13px;
+    border-bottom: 2px double black;
+    font-weight: bolder;
+    border-bottom-width: 4px;
+}
+
+.intro {
+    background-color: rgb(255, 234, 163);
+    font-size: 18px;
+    color: black;
+    margin: 30px 30px 20px 30px;
+    border-radius: 10px;
+    padding: 0.5px 20px 10px 20px;
+    border: 2px solid #f8e430;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.what-we-offer {
+    font-size: 18px;
+    margin: 10px 8px 0px 12px;
+    padding: 0.5px 20px 20px 20px;
+}
+
+.what-we-offer-section {
+    background-color: rgb(115, 188, 73);
+    padding: 4px 20px 14px 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 30px 20px 20px 20px;
+}
+
+.aboutus-title {
+    font-weight: bolder;
+    font-size: 22pt;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    font-family: cursive;
+}
+
+.about {
+    background-color: #ffe6cc;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.quote-1 {
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main h2 {
+    margin: 0;
+    font-size: 25pt;
+    margin-top: 30px;
+    padding: 10px 10px 2px 13px;
+    border-bottom: 2px double black;
+    font-weight: bolder;
+    border-bottom-width: 4px;
+}
+
+main h3 {
+    margin: 0;
+    font-size: 20pt;
+    margin-top: 30px;
+    padding: 0px 10px 10px 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+main h4 {
+    color: white;
+    margin: 40px 0px 0px 0px;
+    font-size: 17pt;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    background-color: #30642f;
+    border-radius: 15px;
+}
+
+img {
+    display: block;
+    height: 30%;
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    min-width: 270px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 800px;
+}
+
+.picture-citation {
+    display: block;
+    font-size: 12pt;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    color: rgb(20, 92, 16);
+
+}
+
+.picture-citation a {
+    color: rgb(20, 92, 16);
+}
+
+.page-headings {
+    font-size: 25pt;
+    margin-top: 30px;
+    padding: 0px 10px 10px 10px;
+    border-bottom: 4px double black;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffe6cc;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 13pt;
+}
+
+.confirmation-main {
+    min-height: 70vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+.paragraphs {
+    font-size: 17px;
+    margin: 22px 30px 0px 30px;
+    padding: 0.5px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.ingredient-section {
+    font-size: 18px;
+    margin: 20px 30px 40px 30px;
+    background-color: rgb(255, 234, 163);
+    padding: 0.5px 20px 10px 20px;
+    border-radius: 15px;
+    border: 2px dotted rgb(217, 159, 13);
+}
+
+.man-shopping {
+    margin: 40px auto 10px auto;
+    padding: 0.5px 15px 1px 15px;
+    width: 90%;
+    height: auto;
+    border-radius: 35px;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.last-page-section {
+    font-size: 18px;
+    margin: 30px 30px 50px 30px;
+    background-color: rgb(255, 249, 140);
+    padding: 0.5px 20px 10px 20px;
+    border-radius: 15px;
+    border: 2px dotted rgb(217, 159, 13);
+}
+
+.last-page-imbedded-section {
+    font-size: 15px;
+    background-color: rgb(255, 243, 205);
+    padding: 0.5px 20px 10px 20px;
+    border-radius: 15px;
+    border: 2px dotted rgb(217, 159, 13);
+    margin: 10px 0px 20px 0px;
+}
+
+main h5 {
+    color: white;
+    margin: 20px 0px 0px 0px;
+    font-size: 16pt;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    background-color: #068504;
+    border-radius: 15px;
+}
+/* Modal button */
+#contactme {
+    border: 1px solid black;
+    padding: 4px 7px 4px 7px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: rgb(249, 245, 185);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+#contactme:hover {
+    background-color: #9f9a9aa0;
+}
+/* Modal (not accurate just scratch filler code)*/
+#myModal {
+    position: fixed;
+    top: 35%;
+    left:0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+ #shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1;
+    background-color: black;
+    opacity: 0.25;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-content {
+    background-color: rgb(249, 245, 185);
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 12px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Close button (X) (not accurate just scratch filler code)*/
+#close {
+    color: black;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.close:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hamburger menu */
+#menu-icon {
+    display: none;
+}
+#menu-icon:hover {
+    background-color: #9f9a9a98;
+}
+#menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.three-bars {
+    margin:0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.copyright {
+    font-size: 10pt;
+
+}
+.active_page {
+    text-decoration: underline;
+}
+.sign-up-button {
+    text-align: right;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px 20px;
+}
+form#newsletter-signup {
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
