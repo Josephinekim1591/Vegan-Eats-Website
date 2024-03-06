@@ -5,11 +5,11 @@
     </button>
     <nav>
         <ul id="nav-list" class = "hidden">
-            <li class="<?php echo $page_title == 'index' ? 'active_page': ''; ?>"><a href="index.php">Welcome</a></li>
-            <li class="<?php echo $page_title == 'page2' ? 'active_page': ''; ?>"><a href="page2.php">Vegan Breakfast Recipes</a></li>
-            <li class="<?php echo $page_title == 'page3' ? 'active_page': ''; ?>"><a href="page3.php">Vegan Lunch Recipes</a></li>
-            <li class="<?php echo $page_title == 'page4' ? 'active_page': ''; ?>"><a href="page4.php">Vegan Dinner Recipes</a></li>
-            <li class="<?php echo $page_title == 'page5' ? 'active_page': ''; ?>"><a href="page5.php">Vegan Nutritional Insights and Cooking Tips</a></li>
+            <li class="<?php echo $page_title == 'index' ? 'active_page': ''; ?>"><a href="/">Welcome</a></li>
+            <li class="<?php echo $page_title == 'page2' ? 'active_page': ''; ?>"><a href="/breakfast-recipes">Vegan Breakfast Recipes</a></li>
+            <li class="<?php echo $page_title == 'page3' ? 'active_page': ''; ?>"><a href="/lunch-recipes">Vegan Lunch Recipes</a></li>
+            <li class="<?php echo $page_title == 'page4' ? 'active_page': ''; ?>"><a href="/dinner-recipes">Vegan Dinner Recipes</a></li>
+            <li class="<?php echo $page_title == 'page5' ? 'active_page': ''; ?>"><a href="/additional-information">Vegan Nutritional Insights and Cooking Tips</a></li>
         </ul>
     </nav>
 </header>
