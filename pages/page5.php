@@ -10,7 +10,7 @@ $page_title = 'page5';
 
   <title>Vegan Eats</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@ $page_title = 'page5';
             <h2 class = "page-headings">Vegan Nutritional Insights & Cooking Tips</h2>
             <!-- Source: https://www.foxnews.com/us/eating-vegan-diet-promotes-white-masculinity-sociologist-argues -->
             <picture>
-                <img  class = "man-shopping" src="images/lastpage.jpg" alt="Person Shopping for Vegetables">
+                <img  class = "man-shopping" src="/public/images/lastpage.jpg" alt="Person Shopping for Vegetables">
             </picture>
             <cite class = "center-picture-citation">
                 Source: <a href="https://www.foxnews.com/us/eating-vegan-diet-promotes-white-masculinity-sociologist-argues">Fox News</a>
@@ -83,7 +83,7 @@ $page_title = 'page5';
         </section>
         <section>
             <h2>Sign Up for Our Newsletter</h2>
-            <form id="newsletter-signup" action="page5-confirmation.php" method="post" novalidate>
+            <form id="newsletter-signup" action="/additional-information/confirmation" method="post" novalidate>
                 <p>Subscribe to receive recipes and updates directly to your inbox.</p>
                 <label for="user-email">Email:</label>
                 <input type="email" id="user-email" name="user_email" required>
@@ -108,7 +108,7 @@ $page_title = 'page5';
             <?php include('includes/copyright.php'); ?>
         </footer>
     </main>
-    <script src="scripts/jquery-3.7.1.js"></script>
-    <script src="scripts/hamburger-menu.js"></script>
+    <script src="/public/scripts/jquery-3.7.1.js"></script>
+    <script src="/public/scripts/hamburger-menu.js"></script>
 </body>
 </html>

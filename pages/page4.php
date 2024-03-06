@@ -10,7 +10,7 @@ $page_title = 'page4';
 
   <title>Vegan Eats</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@ $page_title = 'page4';
                     <h3 class = "ingredient-title">1. Vegan Chili</h3>
                     <!-- Source: https://frommybowl.com/easy-vegan-chili/ -->
                     <figure>
-                        <img src="images/vegan-chili.jpg" alt="Vegan Chili">
+                        <img src="/public/images/vegan-chili.jpg" alt="Vegan Chili">
                         <figcaption class = "picture-citation">
                             Source: <cite><a href="https://frommybowl.com/easy-vegan-chili/">From My Bowl</a></cite>
                         </figcaption>
@@ -61,7 +61,7 @@ $page_title = 'page4';
                     <h3 class = "ingredient-title">2. Vegan Spaghetti with Tomato Sauce</h3>
                     <!-- Source: https://thehappypear.ie/low-fodmap-spaghetti-bolognese-recipes/ -->
                     <figure>
-                        <img src="images/vegan-spaghetti.jpg" alt="Vegan Spaghetti with Tomato Sauce">
+                        <img src="/public/images/vegan-spaghetti.jpg" alt="Vegan Spaghetti with Tomato Sauce">
                         <figcaption class = "picture-citation">
                             Source: <cite><a href="https://thehappypear.ie/low-fodmap-spaghetti-bolognese-recipes/">The Happy
                                 Pear</a></cite>
@@ -94,7 +94,7 @@ $page_title = 'page4';
                     <h3 class = "ingredient-title">3. Vegan Thai Red Curry</h3>
                     <!-- Source: https://www.fromachefskitchen.com/vegan-thai-red-curry/ -->
                     <figure>
-                        <img src="images/vegan-thai-red-curry.jpg" alt="Vegan Thai Red Curry">
+                        <img src="/public/images/vegan-thai-red-curry.jpg" alt="Vegan Thai Red Curry">
                         <figcaption class = "picture-citation">
                             Source: <cite><a href="https://www.fromachefskitchen.com/vegan-thai-red-curry/">The Real Food
                                 Dietitians</a></cite>
@@ -127,8 +127,8 @@ $page_title = 'page4';
             <?php include('includes/copyright.php'); ?>
         </footer>
     </main>
-    <script src="scripts/jquery-3.7.1.js"></script>
-    <script src="scripts/hamburger-menu.js"></script>
+    <script src="/public/scripts/jquery-3.7.1.js"></script>
+    <script src="/public/scripts/hamburger-menu.js"></script>
 </body>
 
 </html>

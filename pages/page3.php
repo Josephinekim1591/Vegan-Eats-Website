@@ -10,7 +10,7 @@ $page_title = 'page3';
 
   <title>Vegan Eats</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css">
 </head>
 
 
@@ -27,7 +27,7 @@ $page_title = 'page3';
                 <h3 class = "ingredient-title">1. Vegan Lentil Soup</h3>
                 <!-- Source: https://www.eatingwell.com/recipe/7873236/vegan-lentil-soup/ -->
                 <figure>
-                    <img src="images/vegan-lentil-soup.jpg" alt="Vegan Lentil Soup">
+                    <img src="/public/images/vegan-lentil-soup.jpg" alt="Vegan Lentil Soup">
                     <figcaption class = "picture-citation">
                         Source: <cite><a href="https://www.eatingwell.com/recipe/7873236/vegan-lentil-soup/">Eating
                             Well</a></cite>
@@ -58,7 +58,7 @@ $page_title = 'page3';
                 <h3 class = "ingredient-title">2. Vegan Falafel Wrap</h3>
                 <!-- Source: https://ordinaryvegan.net/vegan-falafel-baked/ -->
                 <figure>
-                    <img src="images/vegan-falafel-wrap.jpg" alt="Vegan Falafel Wrap">
+                    <img src="/public/images/vegan-falafel-wrap.jpg" alt="Vegan Falafel Wrap">
                     <figcaption class = "picture-citation">
                         Source: <cite><a href="https://ordinaryvegan.net/vegan-falafel-baked/">Ordinary Vegan</a></cite>
                     </figcaption>
@@ -86,7 +86,7 @@ $page_title = 'page3';
                 <h3 class = "ingredient-title">3. Quinoa and Black Bean Salad</h3>
                 <!-- Source: https://www.fromachefskitchen.com/vegan-thai-red-curry/ -->
                 <figure>
-                    <img src="images/vegan-pancakes.jpg" alt="Quinoa and Black Bean Salad">
+                    <img src="/public/images/vegan-pancakes.jpg" alt="Quinoa and Black Bean Salad">
                     <figcaption class = "picture-citation">
                         Source: <cite><a href="https://www.fromachefskitchen.com/vegan-thai-red-curry/">From a Chef's
                             Kitchen</a></cite>
@@ -115,8 +115,8 @@ $page_title = 'page3';
     <footer>
         <?php include('includes/copyright.php'); ?>
     </footer>
-    <script src="scripts/jquery-3.7.1.js"></script>
-    <script src="scripts/hamburger-menu.js"></script>
+    <script src="/public/scripts/jquery-3.7.1.js"></script>
+    <script src="/public/scripts/hamburger-menu.js"></script>
 </body>
 
 </html>

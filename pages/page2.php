@@ -10,7 +10,7 @@ $page_title = 'page2';
 
   <title>Vegan Eats</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css">
 </head>
 
 
@@ -27,7 +27,7 @@ $page_title = 'page2';
             <h3 class = "ingredient-title">1. Vegan Smoothie Bowl</h3>
             <!-- Source: https://plantbasedandbroke.com/super-simple-raspberry-banana-smoothie-bowl/ -->
             <figure>
-                <img src="images/vegan-smoothie-bowl.jpg" alt="Vegan Smoothie Bowl">
+                <img src="/public/images/vegan-smoothie-bowl.jpg" alt="Vegan Smoothie Bowl">
                 <figcaption class = "picture-citation">
                     Source: <cite><a href="https://plantbasedandbroke.com/super-simple-raspberry-banana-smoothie-bowl/">Plant
                         Based and Broke</a></cite>
@@ -53,7 +53,7 @@ $page_title = 'page2';
             <h3 class = "ingredient-title">2. Vegan Pancakes</h3>
             <!-- Source: https://chefani.com/vegan-pancakes/ -->
             <figure>
-                <img src="images/vegan-pancakes.jpg" alt="Vegan Pancakes">
+                <img src="/public/images/vegan-pancakes.jpg" alt="Vegan Pancakes">
                 <figcaption class = "picture-citation">
                     Source: <cite><a href="https://chefani.com/vegan-pancakes/">Chef Ani</a></cite>
                 </figcaption>
@@ -81,7 +81,7 @@ $page_title = 'page2';
             <h3 class = "ingredient-title">3. Tofu Scramble</h3>
             <!-- Source: https://plantbasedonabudget.com/favorite-tofu-scamble/ -->
             <figure>
-                <img src="images/vegan-tofu-scramble.jpg" alt="Tofu Scramble">
+                <img src="/public/images/vegan-tofu-scramble.jpg" alt="Tofu Scramble">
                 <figcaption class = "picture-citation">
                     Source: <cite><a href="https://www.istockphoto.com/photos/happy-chef">Plant-Based on a Budget</a></cite>
                 </figcaption>
@@ -108,8 +108,8 @@ $page_title = 'page2';
     <footer>
         <?php include('includes/copyright.php'); ?>
     </footer>
-    <script src="scripts/jquery-3.7.1.js"></script>
-    <script src="scripts/hamburger-menu.js"></script>
+    <script src="/public/scripts/jquery-3.7.1.js"></script>
+    <script src="/public/scripts/hamburger-menu.js"></script>
 </body>
 
 </html>

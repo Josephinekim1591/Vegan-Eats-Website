@@ -10,7 +10,7 @@ $page_title = 'index';
 
   <title>Vegan Eats</title>
 
-  <link rel="stylesheet" type="text/css" href="styles/site.css">
+  <link rel="stylesheet" type="text/css" href="/public/styles/site.css">
 </head>
 
 
@@ -24,7 +24,7 @@ $page_title = 'index';
             <h2 class = "welcome-heading"> Welcome to Vegan Eats</h2>
             <!-- Source: https://www.health.harvard.edu/blog/phytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501 -->
             <picture>
-                <img class="rainbow" src="images/vegan-rainbow.jpg" alt="Vegan Rainbow"/>
+                <img class="rainbow" src="/public/images/vegan-rainbow.jpg" alt="Vegan Rainbow"/>
             </picture>
             <cite class="center-picture-citation">
                 Source: <a href="https://www.health.harvard.edu/blogphytonutrients-paint-your-plate-with-the-colors-of-the-rainbow-2019042516501">Harvard Health Publishing</a>
@@ -45,7 +45,7 @@ $page_title = 'index';
                 <h3>1. Recipes Galore</h3>
                 <!-- https://theveganreview.com/vegan-recipes-vegan-recipes-uk/ -->
                 <figure>
-                    <img class = "recipes-galore-img" src="images/recipes-galore.jpg" alt="Recipes Galore">
+                    <img class = "recipes-galore-img" src="/public/images/recipes-galore.jpg" alt="Recipes Galore">
                     <figcaption class = "picture-citation">
                         <cite>
                             Source: <a href="https://theveganreview.com/vegan-recipes-vegan-recipes-uk/">The Vegan Review</a>
@@ -61,7 +61,7 @@ $page_title = 'index';
                 <h3>2. Nutritional Insights</h3>
                 <!-- https://clipart-library.com/happy-people.html -->
                 <figure>
-                    <img class = "nutritional-insights-img" src="images/nutritional-insights.jpg" alt="Nutritional Insights">
+                    <img class = "nutritional-insights-img" src="/public/images/nutritional-insights.jpg" alt="Nutritional Insights">
                     <figcaption>
                         <cite class = "picture-citation">
                             Source: <a href="https://clipart-library.com/happy-people.html">Clipart Library</a>
@@ -76,7 +76,7 @@ $page_title = 'index';
                 <h3>3. Cooking Tips and Tricks</h3>
                 <!-- https://www.istockphoto.com/photos/happy-chef -->
                 <figure>
-                    <img class = "cooking-tips-img" src="images/cooking-tips-and-tricks.jpg" alt="Cooking Tips and Tricks">
+                    <img class = "cooking-tips-img" src="/public/images/cooking-tips-and-tricks.jpg" alt="Cooking Tips and Tricks">
                     <figcaption>
                         <cite class = "picture-citation">
                             Source: <a href="https://www.istockphoto.com/photos/happy-chef">iStock Photos</a>
@@ -115,9 +115,9 @@ $page_title = 'index';
             </footer>
     </main>
 
-    <script src="scripts/jquery-3.7.1.js"></script>
-    <script src="scripts/hamburger-menu.js"></script>
-    <script src="scripts/modal.js"></script>
+    <script src="/public/scripts/jquery-3.7.1.js"></script>
+    <script src="/public/scripts/hamburger-menu.js"></script>
+    <script src="/public/scripts/modal.js"></script>
 </body>
 
 </html>
