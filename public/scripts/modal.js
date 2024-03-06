@@ -6,5 +6,4 @@ $("#contactme").click(function () {
 $("#close").click(function () {
     $("#myModal").addClass("hidden");
     $("#shadow").addClass("hidden");
-
 });
