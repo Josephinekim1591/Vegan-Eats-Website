@@ -75,7 +75,12 @@ function mime_type($filename)
 }
 
 const ROUTES = array(
-  '/' => 'pages/index.php'
+  '/'                                                     => 'pages/index.php',
+  '/breakfast-recipes'                                    => 'pages/page2.php',
+  '/lunch-recipes'                                        => 'pages/page3.php',
+  '/dinner-recipes'                                       => 'pages/page4.php',
+  '/additional-information'                               => 'pages/page5.php',
+  '/additional-information/confirmation'                  => 'pages/page5-confirmation.php',
 );
 
 // Grabs the URI and separates it from query string parameters
@@ -98,4 +103,5 @@ if ($php_file = match_routes($request_uri, ROUTES)) {
 } else {
   error_log("  404 Not Found: " . $request_uri);
   http_response_code(404);
+  require "pages/not-found.php";
 }
